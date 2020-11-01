@@ -19,6 +19,9 @@
     <Filter Include="源文件\Sort">
       <UniqueIdentifier>{1566d850-60d0-4b1b-b9e3-3fd9a66ee623}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Search">
+      <UniqueIdentifier>{5d6b47b9-cab0-4035-9276-0cbe066e6e08}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HeapSort.c">
@@ -30,10 +33,16 @@
     <ClCompile Include="main.c">
       <Filter>源文件\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="search.c">
+      <Filter>源文件\Search</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sort.h">
       <Filter>源文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>源文件\Search</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
